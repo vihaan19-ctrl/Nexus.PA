@@ -24,7 +24,7 @@ export default function App() {
   return (
     <NexusProvider>
       <ToastProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/Nexus.PA">
           <Routes>
             <Route element={<AppShell />}>
               <Route path="/" element={<DashboardPage />} />
